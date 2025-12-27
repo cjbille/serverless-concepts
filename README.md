@@ -16,3 +16,11 @@
 | Application Integration      | EventBridge, SNS, SQS |
 | Orchestration                | Step Functions        |
 | Streaming Data and Analytics | Kinesis               |
+
+## Event Drive Architectures
+- https://serverlessland.com/event-driven-architecture/intro
+
+## Serverless Resources
+- https://serverlessland.com
+- https://aws.amazon.com/serverless/
+- https://d1.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Architectures.pdf

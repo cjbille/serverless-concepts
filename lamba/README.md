@@ -1,13 +1,7 @@
 # AWS Lambda
 > Quick reference for concepts and best practices for AWS Lambda functions
 
-## Concept Guides
-- https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html
-- https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html
-- https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html
-
 ## Best Practices
-- https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html
 - Separate your core business logic from the handler event
 - Write modular functions
 - Treat functions as stateless
@@ -31,14 +25,11 @@ def lambda_handler(event, context):
 - Gather metrics with CloudWatch
 - Reuse execution context
 
-## Event Drive Architectures
-- https://serverlessland.com/event-driven-architecture/intro
-
-## Resources
-- https://serverlessland.com
-- https://aws.amazon.com/serverless/
+## More on Lambda
+- https://serverlessland.com/content/service/lambda/guides/aws-lambda-fundamentals/what-is-aws-lambda
+- https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro
 - https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
-- https://d1.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Architectures.pdf
+- https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html
 - https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/
 
 ## Tech Talks
