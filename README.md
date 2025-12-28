@@ -17,13 +17,14 @@
 | Orchestration                | Step Functions        |
 | Streaming Data and Analytics | Kinesis               |
 
-## Event Drive Architectures
-- https://serverlessland.com/event-driven-architecture/intro
+## Event Driven Architectures
+- [Event Driven Architecture Intro](https://serverlessland.com/event-driven-architecture/intro)
+- [Event Storming](https://serverlessland.com/content/guides/eventstorming/introduction)
 
 ## Terraform Examples
-- https://serverlessland.com/content/guides/building-serverless-applications-with-terraform/01-introduction
+- [TF Serverless Example](https://serverlessland.com/content/guides/building-serverless-applications-with-terraform/01-introduction)
 
 ## Serverless Resources
-- https://serverlessland.com
-- https://aws.amazon.com/serverless/
-- https://d1.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Architectures.pdf
+- [Serverless Land](https://serverlessland.com)
+- [AWS Serverless](https://aws.amazon.com/serverless/)
+- [Serverless Multi-Tier Architecture](https://d1.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Architectures.pdf)

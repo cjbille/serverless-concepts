@@ -3,7 +3,7 @@
 
 ## Prerequisites for Local Testing
 - Verify at least Java 17 or later is installed
-- Download DynamoDB locally following instructions here: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html
+- Download DynamoDB locally following instructions [here](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html)
 - Make .aws dir in home: `mkdir ~/.aws`
 - Add credentials file to `~/.aws` dir:
 ```

@@ -26,11 +26,9 @@ def lambda_handler(event, context):
 - Reuse execution context
 
 ## More on Lambda
-- https://serverlessland.com/content/service/lambda/guides/aws-lambda-fundamentals/what-is-aws-lambda
-- https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro
-- https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
-- https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html
-- https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/
-
-## Tech Talks
-- https://aws.amazon.com/lambda/resources/webinars-and-talks/
+- [Fundamentals](https://serverlessland.com/content/service/lambda/guides/aws-lambda-fundamentals/what-is-aws-lambda)
+- [Operator Guide](https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/intro)
+- [Cost Optimization](https://serverlessland.com/content/service/lambda/guides/cost-optimization/1-fine-tuning)
+- [Lambda Docs](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- [Best Practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html)
+- [Blog](https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/)
