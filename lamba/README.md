@@ -32,3 +32,4 @@ def lambda_handler(event, context):
 - [Lambda Docs](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 - [Best Practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html)
 - [Blog](https://aws.amazon.com/blogs/compute/category/compute/aws-lambda/)
+- [Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
