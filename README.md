@@ -31,4 +31,3 @@
 
 ## Serverless Infrastructure
 - [FirecrackerVM](https://firecracker-microvm.github.io)
-- 
