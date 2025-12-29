@@ -21,9 +21,6 @@
 - [Event Driven Architecture Intro](https://serverlessland.com/event-driven-architecture/intro)
 - [Event Storming](https://serverlessland.com/content/guides/eventstorming/introduction)
 
-## Terraform Examples
-- [TF Serverless Example](https://serverlessland.com/content/guides/building-serverless-applications-with-terraform/01-introduction)
-
 ## Serverless Resources
 - [Serverless Land](https://serverlessland.com)
 - [AWS Serverless](https://aws.amazon.com/serverless/)
@@ -31,3 +28,7 @@
 
 ## Serverless Infrastructure
 - [FirecrackerVM](https://firecracker-microvm.github.io)
+- [Terraform Serverless Example](https://serverlessland.com/content/guides/building-serverless-applications-with-terraform/01-introduction)
+
+## Serverless Security
+- [OWASP Top 10 2025](https://owasp.org/Top10/2025/)
