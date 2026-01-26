@@ -2,10 +2,11 @@
 >This repository is knowledgebase for serverless information, ideas, and innovation in serverless event driven architectures
 
 ## Directory Structure
-| Name     | Description                              |
-|----------|------------------------------------------|
-| dynamodb | Information related AWS DynamoDB |
-| lambda   | Information related AWS Lambda functions |
+| Name     | Description                                     |
+|----------|-------------------------------------------------|
+| athena   | Information related AWS Athena SQL query engine |
+| dynamodb | Information related AWS DynamoDB                |
+| lambda   | Information related AWS Lambda functions        |
 
 ## Patterns
 | Category                     | AWS Service           |
