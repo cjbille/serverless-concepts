@@ -8,7 +8,7 @@ It is also serverless. Athena decides how much computing is needed.
 ## Features
 - Supports various data types:
   - structured
-  - semi-strucutured
+  - semi-structured
   - unstructured
 - Supports a variety of data formats:
   - csv
@@ -25,4 +25,12 @@ When you would you use Athena over say Amazon's RDS service? Here are some quest
 - Again, it is a _query_ service, not a DML
 - Do I need indexes?
 - Not a standalone service → Athena + S3
-- 
+
+## Integrations
+- Usually works with AWS Glue
+- AWS Glue is a serverless data integration service built on Apache Spark
+- Makes it easy to discover data
+- ETL - extract, transform, load
+- Schema inference of data via data crawlers on structured and semi-structured data
+- Glue can identify sensitive data as well
+- Pay as you go
