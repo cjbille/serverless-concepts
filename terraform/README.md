@@ -38,5 +38,24 @@ images. The term for this is immutable infrastructure.
 - More complex logic is usually less readable
 - Use variables when values may change
 
+### Environment Variables
+- Terraform support adding variables from the environment
+- Variables must be prefixed with `TF_VAR`
+- In Linux, set an env var: `export TF_VAR_database_password="MySecurePassword123"`
+- Then use it Terraform:
+```terraform
+variable "database_password" {
+  description = "The password for the database"
+  type        = string
+  sensitive   = true
+}
+
+resource "aws_db_instance" "default" {
+  password       = var.database_password
+  instance_class = "t3.nano"
+}
+```
+
 ## Resources
--   
+- [Documentation](https://developer.hashicorp.com/terraform)
+- [Registry](https://registry.terraform.io)
