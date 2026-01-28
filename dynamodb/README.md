@@ -29,7 +29,7 @@ This section lists basic DynamoDB commands
 `aws dynamodb list-tables --endpoint-url http://localhost:8000`
 
 ### Create Table
-```
+```shell script
 aws dynamodb create-table \
 --table-name players \
 --attribute-definitions \
@@ -62,3 +62,6 @@ aws dynamodb create-table \
 
 ### Delete Table
 `aws dynamodb delete-table --table-name players --endpoint-url http://localhost:8000`
+
+## Resources
+- [DynamoDB Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)

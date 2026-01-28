@@ -34,3 +34,6 @@ When you would you use Athena over say Amazon's RDS service? Here are some quest
 - Schema inference of data via data crawlers on structured and semi-structured data
 - Glue can identify sensitive data as well
 - Pay as you go
+
+## Resources
+- [Athena User Guide](https://docs.aws.amazon.com/athena/latest/ug/what-is.html)
