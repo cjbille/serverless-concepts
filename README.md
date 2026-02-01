@@ -26,6 +26,7 @@
 ## Serverless Resources
 - [Serverless Land](https://serverlessland.com)
 - [AWS Serverless](https://aws.amazon.com/serverless/)
+- [Serverless Patterns](https://serverlessland.com/patterns)
 - [Serverless Multi-Tier Architecture](https://d1.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Architectures.pdf)
 
 ## Serverless Infrastructure
