@@ -15,7 +15,7 @@ EOF
 ```
 - Add config file to `~/.aws` dir:
 ```
-cat << EOF > /~.aws/config
+cat << EOF > ~/.aws/config
 [default]
 region = us-east-1
 EOF
