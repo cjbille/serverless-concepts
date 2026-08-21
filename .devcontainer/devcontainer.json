@@ -1,4 +1,22 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {"ghcr.io/devcontainers/features/python:1": {}}
+  "image": "mcr.microsoft.com/devcontainers/python:3.14",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "vscode-icons-team.vscode-icons"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.analysis.typeCheckingMode": "standard",
+        "workbench.iconTheme": "vscode-icons",
+        "editor.minimap.enabled": false,
+        "editor.fontSize": 13,
+        "editor.stickyScroll.enabled": false,
+        "terminal.integrated.shellIntegration.enabled": false
+      }
+    }
+  },
+  "remoteUser": "vscode"
 }
