@@ -24,6 +24,9 @@ def lambda_handler(event, context):
 - Avoid recursive code
 - Gather metrics with CloudWatch
 - Reuse execution context
+- Event payload cannot exceed 6MB
+- Response payload cannot exceed 6MB
+- When set as a target for an ALB, the event (request) and response payload goes down to 1MB
 
 ## More on Lambda
 - [Fundamentals](https://serverlessland.com/content/service/lambda/guides/aws-lambda-fundamentals/what-is-aws-lambda)
