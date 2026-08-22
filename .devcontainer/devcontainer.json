@@ -7,8 +7,7 @@
         "ms-python.vscode-pylance",
         "vscode-icons-team.vscode-icons",
         "HashiCorp.terraform",
-        "ms-ossdata.vscode-pgsql",
-        "bierner.github-markdown-preview"
+        "ms-ossdata.vscode-pgsql"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
