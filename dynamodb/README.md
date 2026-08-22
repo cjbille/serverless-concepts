@@ -31,13 +31,13 @@ This section lists basic DynamoDB commands
 ### Create Table
 ```shell script
 aws dynamodb create-table \
---table-name players \
+--table-name Music \
 --attribute-definitions \
-  AttributeName=playerId,AttributeType=S \
-  AttributeName=country,AttributeType=S \
+  AttributeName=Artist,AttributeType=S \
+  AttributeName=Song,AttributeType=S \
 --key-schema \
-  AttributeName=playerId,KeyType=HASH \
-  AttributeName=country,KeyType=RANGE \
+  AttributeName=Artist,KeyType=HASH \
+  AttributeName=Song,KeyType=RANGE \
 --billing-mode PAY_PER_REQUEST \
 --endpoint-url http://localhost:8000
 ```
