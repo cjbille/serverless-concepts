@@ -55,14 +55,14 @@ aws dynamodb create-table \
 ```shell script
 aws dynamodb put-item \
 --table-name Music --item '{"Artist": {"S": "The Amity Affliction"}, "Song": {"S": "House of Cards"}, "Album": {"S": "House of Cards"}, "Year": {"N": "2026"}, "Genre": {"S": "Metalcore"}}' \
---endpoint-url http://localhost:8000`
+--endpoint-url http://localhost:8000
 ```
 
 ### Get Item from Table
 ```shell script
 aws dynamodb get-item --table-name Music \
 --key '{"Artist": {"S": "The Amity Affliction"}, "Song": {"S": "House of Cards"}}' \
---endpoint-url http://localhost:8000`
+--endpoint-url http://localhost:8000
 ```
 
 ### Update Item in Table
@@ -84,11 +84,14 @@ aws dynamodb delete-item \
 --endpoint-url http://localhost:8000
 ```
 
+### Query Items in Table
+
+
 ### Scan All Items in Table
-`aws dynamodb scan --table-name players --endpoint-url http://localhost:8000`
+`aws dynamodb scan --table-name Music --endpoint-url http://localhost:8000`
 
 ### Delete Table
-`aws dynamodb delete-table --table-name players --endpoint-url http://localhost:8000`
+`aws dynamodb delete-table --table-name Music --endpoint-url http://localhost:8000`
 
 ## Resources
 - [DynamoDB Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
