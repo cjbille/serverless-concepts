@@ -12,8 +12,8 @@
 ## Patterns
 | Category                     | AWS Service           |
 |------------------------------|-----------------------|
-| Compute                      | Lambda, ECS Fargate   |
-| Data Storage                 | S3, DynamoDB, RDS     |
+| Compute                      | Lambda, AWS Fargate   |
+| Data Storage                 | S3, DynamoDB          |
 | API                          | API Gateway           |
 | Application Integration      | EventBridge, SNS, SQS |
 | Orchestration                | Step Functions        |
