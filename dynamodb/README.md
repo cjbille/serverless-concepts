@@ -54,7 +54,7 @@ aws dynamodb create-table \
 ### Put Item into Table
 ```shell script
 aws dynamodb put-item \
---table-name Music --item '{"Artist": {"S": "The Amity Affliction"}, "Song": {"S": "House of Cards"}, "Album": {"S": "House of Cards"}, "Year": {"N": "2026"}, "Genre": {"S": "Metalcore"}}' \
+--table-name Music --item '{"Artist": {"S": "The Amity Affliction"}, "Song": {"S": "Pittsburgh"}, "Album": {"S": "Let the Ocean Take Me"}, "Year": {"N": "2014"}, "Genre": {"S": "Metalcore"}}' \
 --endpoint-url http://localhost:8000
 ```
 
@@ -85,7 +85,13 @@ aws dynamodb delete-item \
 ```
 
 ### Query Items in Table
-
+```shell script
+ aws dynamodb query \
+--table-name Music \
+--key-condition-expression "Artist = :name" \
+--expression-attribute-values  '{":name": {"S":  "The Amity Affliction"}}' \
+--endpoint-url http://localhost:8000
+```
 
 ### Scan All Items in Table
 `aws dynamodb scan --table-name Music --endpoint-url http://localhost:8000`
