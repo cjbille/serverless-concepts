@@ -76,6 +76,14 @@ aws dynamodb update-item --table-name Music \
 --endpoint-url http://localhost:8000
 ```
 
+### Delete Item in Table
+```shell Script
+aws dynamodb delete-item \
+--table-name Music \
+--key '{"Artist": {"S": "Pink Floyd"}, "Song": {"S": "Money"}}' \
+--endpoint-url http://localhost:8000
+```
+
 ### Scan All Items in Table
 `aws dynamodb scan --table-name players --endpoint-url http://localhost:8000`
 
