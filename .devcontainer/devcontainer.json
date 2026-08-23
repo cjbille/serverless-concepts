@@ -7,9 +7,7 @@
         "ms-python.vscode-pylance",
         "vscode-icons-team.vscode-icons",
         "HashiCorp.terraform",
-        "ms-ossdata.vscode-pgsql",
-        "yzhang.markdown-all-in-one"
-      ],
+        "ms-ossdata.vscode-pgsql"      ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "python.analysis.typeCheckingMode": "standard",
