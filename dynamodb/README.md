@@ -52,10 +52,29 @@ aws dynamodb create-table \
 `aws dynamodb describe-table --table-name Music --endpoint-url http://localhost:8000`
 
 ### Put Item into Table
-`aws dynamodb put-item --table-name Music --item '{"Artist": {"S": "The Amity Affliction"}, "Song": {"S": "House of Cards"}, "Album": {"S": "House of Cards"}, "Year": {"N": "2026"}, "Genre": {"S": "Metalcore"}}' --endpoint-url http://localhost:8000`
+```shell script
+aws dynamodb put-item \
+--table-name Music --item '{"Artist": {"S": "The Amity Affliction"}, "Song": {"S": "House of Cards"}, "Album": {"S": "House of Cards"}, "Year": {"N": "2026"}, "Genre": {"S": "Metalcore"}}' \
+--endpoint-url http://localhost:8000`
+```
 
 ### Get Item from Table
-`aws dynamodb get-item --table-name players --key '{"playerId": {"S": "player01"}, "country": {"S": "USA"}}' --endpoint-url http://localhost:8000`
+```shell script
+aws dynamodb get-item --table-name Music \
+--key '{"Artist": {"S": "The Amity Affliction"}, "Song": {"S": "House of Cards"}}' \
+--endpoint-url http://localhost:8000`
+```
+
+### Update Item in Table
+```shell script
+aws dynamodb update-item --table-name Music \
+--key '{"Artist": {"S": "Pink Floyd"}, "Song": {"S": "Money"}}' \
+--update-expression "SET #y = :val" \
+--expression-attribute-names '{"#y": "Genre"}' \
+--expression-attribute-values '{":val": {"S": "Soft Rock"}}' \
+--return-values ALL_NEW \
+--endpoint-url http://localhost:8000
+```
 
 ### Scan All Items in Table
 `aws dynamodb scan --table-name players --endpoint-url http://localhost:8000`
