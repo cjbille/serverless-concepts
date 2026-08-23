@@ -49,15 +49,15 @@ aws dynamodb create-table \
 `aws dynamodb list-tables --endpoint-url http://localhost:8000`
 
 ### Describe Table
-`aws dynamodb describe-table --table-name players --endpoint-url http://localhost:8000`
+`aws dynamodb describe-table --table-name Music --endpoint-url http://localhost:8000`
 
 ### Put Item into Table
-`aws dynamodb put-item --table-name players --item '{"playerId": {"S": "player01"}, "country": {"S": "USA"}}' --endpoint-url http://localhost:8000`
+`aws dynamodb put-item --table-name Music --item '{"Artist": {"S": "The Amity Affliction"}, "Song": {"S": "House of Cards"}, "Album": {"S": "House of Cards"}, "Year": {"N": "2026"}, "Genre": {"S": "Metalcore"}}' --endpoint-url http://localhost:8000`
 
 ### Get Item from Table
 `aws dynamodb get-item --table-name players --key '{"playerId": {"S": "player01"}, "country": {"S": "USA"}}' --endpoint-url http://localhost:8000`
 
-### Retrieve All Items from Table
+### Scan All Items in Table
 `aws dynamodb scan --table-name players --endpoint-url http://localhost:8000`
 
 ### Delete Table
