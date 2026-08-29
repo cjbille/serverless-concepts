@@ -1,23 +1,16 @@
 # Severless Concepts
 >This repository is knowledgebase for serverless information, ideas, and innovation in serverless event driven architectures
 
-## Directory Structure
-| Name      | Description                                     |
-|-----------|-------------------------------------------------|
-| athena    | Information related AWS Athena SQL query engine |
-| dynamodb  | Information related AWS DynamoDB                |
-| lambda    | Information related AWS Lambda functions        |
-| terraform | Information related Terraform                   |
-
 ## Patterns
-| Category                     | AWS Service           |
-|------------------------------|-----------------------|
-| Compute                      | Lambda, AWS Fargate   |
-| Data Storage                 | S3, DynamoDB          |
-| API                          | API Gateway           |
-| Application Integration      | EventBridge, SNS, SQS |
-| Orchestration                | Step Functions        |
-| Streaming Data and Analytics | Kinesis               |
+| Category                     | AWS Service                    |
+|------------------------------|--------------------------------|
+| Compute & Containers         | Lambda, Fargate                |
+| API                          | API Gateway                    |
+| Data Storage                 | S3, DynamoDB                   |
+| Application Integration      | EventBridge, SNS, SQS          |
+| Orchestration                | Step Functions                 |
+| Streaming & Ingestion        | Kinesis, Data Firehose         |
+| Data Analytics & ETL         | Athena, Glue
 
 ## Event Driven Architectures
 - [Event Driven Architecture Intro](https://serverlessland.com/event-driven-architecture/intro)
