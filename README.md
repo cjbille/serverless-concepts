@@ -4,13 +4,14 @@
 ## Patterns
 | Category                     | AWS Service                    |
 |------------------------------|--------------------------------|
+| Infrastructure as Code (IAC) | Terraform                      |
 | Compute & Containers         | Lambda, Fargate                |
 | API                          | API Gateway                    |
 | Data Storage                 | S3, DynamoDB                   |
 | Application Integration      | EventBridge, SNS, SQS          |
 | Orchestration                | Step Functions                 |
 | Streaming & Ingestion        | Kinesis, Data Firehose         |
-| Data Analytics & ETL         | Athena, Glue
+| Data Analytics & ETL         | Athena, Glue                   |
 
 ## Event Driven Architectures
 - [Event Driven Architecture Intro](https://serverlessland.com/event-driven-architecture/intro)
