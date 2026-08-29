@@ -1,5 +1,5 @@
 # Severless Concepts
->This repository is knowledgebase for serverless information, ideas, and innovation in serverless event driven architectures
+> Knowledgebase for concepts, ideas, and innovation in serverless event driven architectures
 
 ## Patterns
 | Category                     | AWS Service                    |
