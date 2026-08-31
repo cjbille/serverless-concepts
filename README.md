@@ -22,6 +22,7 @@
 - [AWS Serverless](https://aws.amazon.com/serverless/)
 - [Serverless Patterns](https://serverlessland.com/patterns)
 - [Serverless Multi-Tier Architecture](https://d1.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Architectures.pdf)
+- [Ten Things Serverless Architects Should Know](https://aws.amazon.com/blogs/architecture/ten-things-serverless-architects-should-know/)
 
 ## Serverless Infrastructure
 - [FirecrackerVM](https://firecracker-microvm.github.io)
