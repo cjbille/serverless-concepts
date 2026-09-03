@@ -19,7 +19,7 @@ distributed software systems and components
     - Max: 12h
 - 256KB message size limit
 - At least once delivery
-- Not real time
+- Not real time (Use Kinesis for real time)
 - Not ordered by default
 - FIFO option
 - Messages are deleted after being consumed
